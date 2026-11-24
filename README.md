@@ -1,5 +1,5 @@
-# Engram-3x5
-Modified key layout based on Engram for 3x5 (40%) split keyboards
+# 35-Engram
+A modified key layout based on Engram for 3x5 (40%) split keyboards
 
 # Alphabet layer
 
