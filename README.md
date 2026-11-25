@@ -1,5 +1,5 @@
-# 35-Engram
-A modified key layout based on Engram for 3x5 (40%) split keyboards
+# 35Engram-code
+A modified key layout based on Engram for programming on 3x5 (40%) split keyboards
 
 - https://github.com/binarybottle/engram-2021
 ### Engram2
