@@ -9,12 +9,12 @@ Everyone knows that the traditional ASCII layout is not ergonomic.
 
 ![](figures/layout-Ascii.svg)
 
-Many new layouts have been proposed. An interesting one is [Engram2]() proposed by (author).
+Many new layouts have been proposed. An interesting one is [Engram2](https://github.com/binarybottle/engram-2021) proposed by Arno Klein.
 However, it does not work for our keyboards because it has no `Q` or `Z`.
 
 ![](figures/layout-Engram2.svg)
 
-In 2025, the layout was revised as `Engram-us` (and `Engram-es`) based on new evaluation functions.
+In 2025, the layout was revised as [`Engram-us`](https://engram-layouts.xyz/engram-en) (and `Engram-es`) based on new evaluation functions.
 But it still has no `Q` or `Z`.
 
 ![](figures/layout-Engram-us.svg)
@@ -63,8 +63,3 @@ So here's `35Engram-code`.
 # Media layer
 
 ![](figures/layer-3.png)
-
-# References
-
-- https://github.com/binarybottle/engram-2021
-- https://github.com/binarybottle/engram
