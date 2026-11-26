@@ -28,10 +28,10 @@ Therefore we need to create a new layout based on them.
 So let's change some key positions
 - Move `Q` from outer space
 - Move `Z` from outer space
-- Move `B` to the top left
-- Move `G` to the bottom left
-- Move `V` to the top right
-- Move `P` to the bottom right
+- Move `B` to the top left to the bottom
+- Move `G` to the bottom left to the center column
+- Move `V` to the top right to the bottom
+- Move `P` to the bottom right to the center column
 - swap `L` and `N`.
 
 I call this generated layout `35Engram` (Engram for 3x5 keyboards).
