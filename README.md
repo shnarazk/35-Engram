@@ -54,9 +54,13 @@ So here's `35Engram-code`.
 
 # Numeric layer
 
+![](figures/layer-num.svg)
+
 ![](figures/layer-1.png)
 
 # Symbol layer
+
+![](figures/layer-sym.svg)
 
 ![](figures/layer-2.png)
 

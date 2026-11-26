@@ -6,6 +6,10 @@
  rect(width: 22pt, height: 22pt, stroke: auto, radius: 4pt, place(horizon + center)[#sym])
 }
 
+#let keysym(sym) = {
+ rect(width: 22pt, height: 22pt, stroke: auto, radius: 4pt, place(horizon + center, text(font: "Monaspace Neon", sym)))
+}
+
 // = Qwerty
 // #block(outset: 4pt)[
 // #box(key[Q]) #box(key[W]) #box(key[E]) #box(key[R]) #box(key[T])
@@ -75,18 +79,69 @@
 // ]
 
 // = 35Engram-code
+// #block(outset: 4pt)[
+// #box(key[\-]) #box(key[Y]) #box(key[O]) #box(key[U]) #box(key[Q])
+// #box(width: 20pt)
+// #box(key[Z]) #box(key[N]) #box(key[D]) #box(key[W]) #box(key[\_])
+// ]
+// #block(outset: 0pt, inset: 0pt)[
+// #box(key[C]) #box(key[I]) #box(key[E]) #box(key[A]) #box(key[G])
+// #box(width: 20pt)
+// #box(key[P]) #box(key[H]) #box(key[T]) #box(key[S]) #box(key[L])
+// ]
+// #block[
+// #box(key[$<-$]) #box(key[X]) #box(key[J]) #box(key[K]) #box(key[B])
+// #box(width: 20pt)
+// #box(key[V]) #box(key[R]) #box(key[M]) #box(key[F]) #box(key[TAB])
+// ]
+
+// = 35Engram-code: Numeric layer
+// #block(outset: 4pt)[
+// #box(key[1]) #box(key[2]) #box(key[3]) #box(key[4]) #box(key[5])
+// #box(width: 20pt)
+// #box(key[6]) #box(key[7]) #box(key[8]) #box(key[9]) #box(key[0])
+// ]
+// #block(outset: 0pt, inset: 0pt)[
+// #box(key[-]) #box(key[Esc]) #box(keysym("`")) #box(keysym("'")) #box(key[,])
+// #box(width: 20pt)
+// #box(key[.]) #box(keysym("\"")) #box(key[\#]) #box(key[\$]) #box(key[@])
+// ]
+// #block[
+// #box(key[$<-$]) #box(key(text(size: 7pt)[Lang1])) #box(key[]) #box(key[?]) #box(key[SPC])
+// #box(width: 20pt)
+// #box(key[Del]) #box(key[!]) #box(key[]) #box(key(text(size: 7pt)[Lang2])) #box(key[TAB])
+// ]
+
+// = 35Engram-code: Symbol layer
 #block(outset: 4pt)[
-#box(key[\-]) #box(key[Y]) #box(key[O]) #box(key[U]) #box(key[Q])
+#box(keysym("|")) #box(keysym("=")) #box(keysym("~")) #box(keysym("+")) #box(keysym("<"))
 #box(width: 20pt)
-#box(key[Z]) #box(key[N]) #box(key[D]) #box(key[W]) #box(key[\_])
+#box(keysym(">")) #box(keysym("^")) #box(keysym("&")) #box(keysym("%")) #box(keysym("*"))
 ]
 #block(outset: 0pt, inset: 0pt)[
-#box(key[C]) #box(key[I]) #box(key[E]) #box(key[A]) #box(key[G])
+#box(keysym("\\")) #box(keysym("[")) #box(keysym("{")) #box(keysym("(")) #box(keysym(";"))
 #box(width: 20pt)
-#box(key[P]) #box(key[H]) #box(key[T]) #box(key[S]) #box(key[L])
+#box(keysym(":")) #box(keysym(")")) #box(keysym("}")) #box(keysym("]")) #box(keysym("/"))
 ]
 #block[
-#box(key[$<-$]) #box(key[X]) #box(key[J]) #box(key[K]) #box(key[B])
+#box(key[$<-$]) #box(keysym("")) #box(keysym($J$)) #box(keysym("K")) #box(keysym(text(size: 7pt,"Home")))
 #box(width: 20pt)
-#box(key[V]) #box(key[R]) #box(key[M]) #box(key[F]) #box(key[TAB])
+#box(keysym(text(size: 7pt, "End"))) #box(keysym($R$)) #box(keysym($M$)) #box(keysym("")) #box(key[TAB])
 ]
+
+// = 35Engram-code: Media Layer
+// #block(outset: 4pt)[
+// #box(key[\-]) #box(key[Y]) #box(key[O]) #box(key[U]) #box(key[Q])
+// #box(width: 20pt)
+// #box(key[Z]) #box(key[N]) #box(key[D]) #box(key[W]) #box(key[\_])
+// ]
+// #block(outset: 0pt, inset: 0pt)[
+// #box(key[C]) #box(key[I]) #box(key[E]) #box(key[A]) #box(key[G])
+// #box(width: 20pt)
+// #box(key[P]) #box(key[H]) #box(key[T]) #box(key[S]) #box(key[L])
+// ]
+// #block[
+// #box(key[$<-$]) #box(key[X]) #box(key[J]) #box(key[K]) #box(key[B])
+// #box(width: 20pt)
+// #box(key[V]) #box(key[R]) #box(key[M]) #box(key[F]) #box(key[TAB])
+// ]
