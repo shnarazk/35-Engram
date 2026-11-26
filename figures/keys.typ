@@ -105,7 +105,7 @@
 #key("6") #key("7") #key("8") #key("9") #key("0")
 ]
 #block(outset: 0pt, inset: 0pt)[
-#key("-") #key("Esc") #key("`") #key("'") #key(",")
+#key("-") #key(size: 7pt, "Esc") #key("`") #key("'") #key(",")
 #sep()
 #key(".") #key("\"") #key("#") #key("$") #key("@")
 ]
