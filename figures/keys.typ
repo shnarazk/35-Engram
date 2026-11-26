@@ -134,17 +134,17 @@
 
 = 35Engram-code: Media layer
 #block(outset: 4pt)[
-#key("-") #key("Y") #key("O") #key("U") #key("Q")
+#key(size: 7pt, "F1") #key(size: 7pt, "F2") #key(size: 7pt, "F3") #key(size: 7pt, "F4") #key(size: 7pt, "F5")
 #sep()
-#key("Z") #key("N") #key("D") #key("W") #key("_")
+#key(size: 7pt, "F6") #key(size: 7pt, "F7") #key(size: 7pt, "F8") #key(size: 7pt, "F9") #key(size: 7pt, "F10")
 ]
 #block(outset: 0pt, inset: 0pt)[
-#key("C") #key("I") #key("E") #key("A") #key("G")
+#key(size: 7pt, "F11") #key("") #key(emoji.playback.restart) #key(emoji.playback.rewind) #key(emoji.playback.stop)
 #sep()
-#key("P") #key("H") #key("T") #key("S") #key("L")
+#key(emoji.playback.toggle) #key(emoji.playback.forward) #key(emoji.playback.skip) #key(size: 6pt, block[#box("Caps") #box("Lock")]) #key(size: 7pt, "F12")
 ]
 #block[
-#key(size: 7pt, "BS") #key("X") #key("J") #key("K") #key("B")
+#key("") #key("") #key(size: 5pt, block[#box("Page") #box("Down")]) #key(size: 5pt, block[#box("Bright") #box("Down")]) #key(size: 5pt, block[#box("Volume") #box("Down")])
 #sep()
-#key("V") #key("R") #key("M") #key("F") #key(size: 7pt, "TAB")
+#key(size: 5pt, block[#box("Volume") #box("Up")]) #key(size: 5pt, block[#box("Bright") #box("Up")]) #key(size: 5pt, block[#box("Page") #box("Up")]) #key("") #key("")
 ]

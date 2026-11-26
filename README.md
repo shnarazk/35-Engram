@@ -66,4 +66,6 @@ So here's `35Engram-code`.
 
 # Media layer
 
+![](figures/layer-media.svg)
+
 ![](figures/layer-3.png)
