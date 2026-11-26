@@ -5,9 +5,9 @@ A modified key layout based on Engram for programming on 3x5 (40%) split keyboar
 
 Assume we use 3x5 (40%) split keyboards.
 
-Everyone knows that the traditional ASCII layout is not ergonomic.
+Everyone knows that the traditional Qwerty layout is not ergonomic.
 
-![](figures/layout-Ascii.svg)
+![](figures/layout-Qwerty.svg)
 
 Many new layouts have been proposed. An interesting one is [Engram2](https://github.com/binarybottle/engram-2021) proposed by Arno Klein.
 However, it does not work for our keyboards because it has no `Q` or `Z`.
