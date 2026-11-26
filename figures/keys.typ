@@ -68,34 +68,34 @@
 #block(outset: 4pt)[
 #key(" ") #key("Y") #key("O") #key("U") #key("Q")
 #sep()
-#key("Z") #key("N") #key("D") #key("W") #key(" ")
+#key("Z") #key("R") #key("D") #key("W") #key(" ")
 ]
 #block(outset: 0pt, inset: 0pt)[
 #key("C") #key("I") #key("E") #key("A") #key("G")
 #sep()
-#key("P") #key("H") #key("T") #key("S") #key("L")
+#key("P") #key("N") #key("T") #key("S") #key("M")
 ]
 #block[
 #key("B") #key("X") #key("J") #key("K") #key(" ")
 #sep()
-#key(" ") #key("R") #key("M") #key("F") #key("V")
+#key(" ") #key("H") #key("L") #key("F") #key("V")
 ]
 
 = 35Engram-code
 #block(outset: 4pt)[
 #key("-") #key("Y") #key("O") #key("U") #key("Q")
 #sep()
-#key("Z") #key("N") #key("D") #key("W") #key("_")
+#key("Z") #key("R") #key("D") #key("W") #key("_")
 ]
 #block(outset: 0pt, inset: 0pt)[
 #key("C") #key("I") #key("E") #key("A") #key("G")
 #sep()
-#key("P") #key("H") #key("T") #key("S") #key("L")
+#key("P") #key("N") #key("T") #key("S") #key("M")
 ]
 #block[
 #key("B") #key("X") #key("J") #key("K") #key(size: 7pt, "BS")
 #sep()
-#key(size: 7pt, "TAB") #key("R") #key("M") #key("F") #key("V")
+#key(size: 7pt, "TAB") #key("H") #key("L") #key("F") #key("V")
 ]
 
 = 35Engram-code: Numeric layer

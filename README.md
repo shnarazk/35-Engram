@@ -32,7 +32,8 @@ So let's change some key positions
 - Move `G` to the bottom left to the center column
 - Move `V` to the top right to the bottom
 - Move `P` to the bottom right to the center column
-- swap `L` and `N`.
+- Move `H` and `L` to the positions matching to `J` and `K`. They avoid home row mod.
+- Move `N`, `R` and `M` to better positions.
 
 I call this generated layout `35Engram` (Engram for 3x5 keyboards).
 
