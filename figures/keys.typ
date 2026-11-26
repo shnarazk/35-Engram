@@ -66,7 +66,7 @@
 
 = 35Engram
 #block(outset: 4pt)[
-#key("  ") #key("Y") #key("O") #key("U") #key("Q")
+#key(" ") #key("Y") #key("O") #key("U") #key("Q")
 #sep()
 #key("Z") #key("N") #key("D") #key("W") #key(" ")
 ]
@@ -76,9 +76,9 @@
 #key("P") #key("H") #key("T") #key("S") #key("L")
 ]
 #block[
-#key(" ") #key("X") #key("J") #key("K") #key("B")
+#key("B") #key("X") #key("J") #key("K") #key(" ")
 #sep()
-#key("V") #key("R") #key("M") #key("F") #key(" ")
+#key(" ") #key("R") #key("M") #key("F") #key("V")
 ]
 
 = 35Engram-code
@@ -93,9 +93,9 @@
 #key("P") #key("H") #key("T") #key("S") #key("L")
 ]
 #block[
-#key(size: 7pt, "BS") #key("X") #key("J") #key("K") #key("B")
+#key("B") #key("X") #key("J") #key("K") #key(size: 7pt, "BS")
 #sep()
-#key("V") #key("R") #key("M") #key("F") #key(size: 7pt, "TAB")
+#key(size: 7pt, "TAB") #key("R") #key("M") #key("F") #key("V")
 ]
 
 = 35Engram-code: Numeric layer
@@ -110,9 +110,9 @@
 #key(".") #key("\"") #key("#") #key("$") #key("@")
 ]
 #block[
-#key(size: 7pt, "BS") #key(size: 6pt, "Lang1") #key(" ") #key("?") #key(size: 7pt, "SPC")
+#key(size: 6pt, "Space") #key(size: 6pt, "Lang1") #key(" ") #key("?") #key(size: 7pt, "BS")
 #sep()
-#key(size: 6pt, "Del") #key("!") #key("") #key(size: 6pt, "Lang2") #key(size: 7pt, "TAB")
+#key(size: 7pt, "Tab") #key("!") #key(" ") #key(size: 6pt, "Lang2") #key(size: 7pt, "Del")
 ]
 
 = 35Engram-code: Symbol layer
@@ -127,9 +127,9 @@
 #key(":") #key(")") #key("}") #key("]") #key("/")
 ]
 #block[
-#key(size: 7pt, "BS") #key("") #key(sym.arrow.b.double) #key(sym.arrow.t.double) #key(text(size: 7pt,"Home"))
+#key(size: 6pt, "Enter") #key(size: 7pt, "Home") #key(sym.arrow.b.double) #key(sym.arrow.t.double) #key(size: 7pt,"BS")
 #sep()
-#key(size: 7pt, "End") #key(sym.arrow.l.double) #key(sym.arrow.r.double) #key("") #key(size: 7pt, "TAB")
+#key(size: 7pt, "Tab") #key(sym.arrow.l.double) #key(sym.arrow.r.double) #key(size: 7pt, "End") #key(size: 7pt, "Del")
 ]
 
 = 35Engram-code: Media layer
@@ -139,12 +139,12 @@
 #key(size: 7pt, "F6") #key(size: 7pt, "F7") #key(size: 7pt, "F8") #key(size: 7pt, "F9") #key(size: 7pt, "F10")
 ]
 #block(outset: 0pt, inset: 0pt)[
-#key(size: 7pt, "F11") #key("") #key(emoji.playback.restart) #key(emoji.playback.rewind) #key(emoji.playback.stop)
+#key(size: 7pt, "F11") #key(emoji.playback.restart) #key(emoji.playback.rewind) #key(emoji.playback.stop) #key("")
 #sep()
-#key(emoji.playback.toggle) #key(emoji.playback.forward) #key(emoji.playback.skip) #key(size: 6pt, block[#box("Caps") #box("Lock")]) #key(size: 7pt, "F12")
+#key("") #key(emoji.playback.toggle) #key(emoji.playback.forward) #key(emoji.playback.skip) #key(size: 7pt, "F12")
 ]
 #block[
-#key("") #key("") #key(size: 5pt, block[#box("Page") #box("Down")]) #key(size: 5pt, block[#box("Bright") #box("Down")]) #key(size: 5pt, block[#box("Volume") #box("Down")])
+#key("") #key("") #key(size: 5pt, block[#box("Bright") #box("Down")]) #key(size: 5pt, block[#box("Volume") #box("Down")]) #key("")
 #sep()
-#key(size: 5pt, block[#box("Volume") #box("Up")]) #key(size: 5pt, block[#box("Bright") #box("Up")]) #key(size: 5pt, block[#box("Page") #box("Up")]) #key("") #key("")
+#key("") #key(size: 5pt, block[#box("Volume") #box("Up")]) #key(size: 5pt, block[#box("Bright") #box("Up")]) #key("") #key("")
 ]

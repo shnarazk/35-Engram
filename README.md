@@ -48,24 +48,14 @@ So here's `35Engram-code`.
 
 ![](figures/layout-35Engram-code.svg)
 
-# Alphabet layer
-
-![](figures/layer-0.png)
-
 # Numeric layer
 
 ![](figures/layer-num.svg)
-
-![](figures/layer-1.png)
 
 # Symbol layer
 
 ![](figures/layer-sym.svg)
 
-![](figures/layer-2.png)
-
 # Media layer
 
 ![](figures/layer-media.svg)
-
-![](figures/layer-3.png)
