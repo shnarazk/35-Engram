@@ -30,8 +30,8 @@ So let's change some key positions
 - Move `Z` from outer space
 - Move `B` to the top left
 - Move `G` to the bottom left
-- Move `V` to the top left
-- Move `P` to the bottom left
+- Move `V` to the top right
+- Move `P` to the bottom right
 - swap `L` and `N`.
 
 I call this generated layout `35Engram` (Engram for 3x5 keyboards).
