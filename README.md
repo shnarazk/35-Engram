@@ -39,6 +39,11 @@ I call this generated layout `35Engram` (Engram for 3x5 keyboards).
 
 ![](figures/layout-35Engram.svg)
 
+[The paper on Engram-us](https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2665409#d1e1910) has [a finger usage heatmap](https://www.tandfonline.com/cms/asset/ddfe73fc-4505-493b-b902-65052de64f01/hihc_a_2665409_f0013_c.jpg).
+By copying the heat from it, I got the following image. It looks nice.
+
+![](figures/35Engram-heatmap.png)
+
 Since I am a programmer, I placed more important keys in the vacant places:
 - We need `_`. It is a word-constructing letter, belonging to the same category as the alphabet letters, since it builds identifiers such as `max_value`.
 - We need `BACKSPACE`. Humans make mistakes.
