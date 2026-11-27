@@ -1,13 +1,8 @@
-// #import "@preview/lilaq:0.6.0" as lq
 #set page(width: 290pt, height: auto, margin: 10pt)
 #set par(spacing: 3pt)
 
-// #let key(sym) = {
-//  rect(width: 22pt, height: 22pt, stroke: auto, radius: 4pt, place(horizon + center)[#sym])
-// }
-
 #let key(font: "Monaspace Neon", size: 12pt, sym) = {
- box(rect(width: 22pt, height: 22pt, stroke: auto, radius: 4pt, place(horizon + center, text(font: "Monaspace Neon", size: size, sym))))
+ box(rect(width: 22pt, height: 22pt, stroke: auto, radius: 4pt, place(horizon + center, text(font: font, size: size, sym))))
 }
 #let sep() = {
  box(width: 20pt)
