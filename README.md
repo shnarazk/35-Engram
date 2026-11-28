@@ -30,8 +30,8 @@ So let's change some key positions
 - Move `V` to the top right to the center
 - Move `G` to the bottom left to the center home
 - Move `P` to the bottom right to the center home
-- Move `Q` from outer space to the bottom left
-- Move `Z` from outer space to the bottom right
+- Move `Z` from outer space to the bottom left
+- Move `Q` from outer space to the bottom right
 - Move `H` and `L` to the positions matching to `J` and `K`. They avoid home row mod.
 - Move `N`, `R` and `M` to better positions.
 

@@ -71,9 +71,9 @@
 #key("P") #key("N") #key("T") #key("S") #key("M")
 ]
 #block[
-#key("Q") #key("X") #key("J") #key("K") #key(" ")
+#key("Z") #key("X") #key("J") #key("K") #key(" ")
 #sep()
-#key(" ") #key("H") #key("L") #key("F") #key("Z")
+#key(" ") #key("H") #key("L") #key("F") #key("Q")
 ]
 
 = 35Engram-code
@@ -88,9 +88,9 @@
 #key("P") #key("N") #key("T") #key("S") #key("M")
 ]
 #block[
-#key("Q") #key("X") #key("J") #key("K") #key(size: 7pt, "BS")
+#key("Z") #key("X") #key("J") #key("K") #key(size: 7pt, "BS")
 #sep()
-#key(size: 7pt, "TAB") #key("H") #key("L") #key("F") #key("Z")
+#key(size: 7pt, "TAB") #key("H") #key("L") #key("F") #key("Q")
 ]
 
 = 35Engram-code: Numeric layer
