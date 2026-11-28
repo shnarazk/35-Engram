@@ -26,12 +26,12 @@ Therefore we need to create a new layout based on them.
 - and using the pinky fingers so much is uncomfortable.
 
 So let's change some key positions
-- Move `Q` from outer space
-- Move `Z` from outer space
-- Move `B` to the top left to the bottom
-- Move `G` to the bottom left to the center column
-- Move `V` to the top right to the bottom
-- Move `P` to the bottom right to the center column
+- Move `B` to the top left to the center
+- Move `V` to the top right to the center
+- Move `G` to the bottom left to the center home
+- Move `P` to the bottom right to the center home
+- Move `Z` from outer space to the bottom left
+- Move `Q` from outer space to the bottom right
 - Move `H` and `L` to the positions matching to `J` and `K`. They avoid home row mod.
 - Move `N`, `R` and `M` to better positions.
 
